@@ -23,8 +23,7 @@
       "extensions": [
         "ms-azuretools.vscode-azureterraform",
         "EditorConfig.EditorConfig",
-        "hashicorp.terraform",
-        "azapi-vscode.azapi"
+        "hashicorp.terraform"
       ]
     }
   }

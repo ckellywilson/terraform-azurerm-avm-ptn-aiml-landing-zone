@@ -15,7 +15,7 @@ locals {
     "appgw_rule01" = {
       name                         = "Allow-AppGW_Management"
       access                       = "Allow"
-      destination_address_prefixes = "*" # Allow to all addresses as per MS documentation, https://learn.microsoft.com/en-us/azure/application-gateway/configuration-infrastructure#network-security-groups
+      destination_address_prefix   = "*" # Allow to all addresses as per MS documentation, https://learn.microsoft.com/en-us/azure/application-gateway/configuration-infrastructure#network-security-groups
       destination_port_range       = "65200-65535"
       direction                    = "Inbound"
       priority                     = 110

@@ -18,15 +18,6 @@
         "--pull=always",
         "ghcr.io/lonegunmanb/terraform-mcp-eva"
       ]
-    },
-    "Azure MCP Server": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "@azure/mcp@latest",
-        "server",
-        "start"
-      ]
     }
   }
 }

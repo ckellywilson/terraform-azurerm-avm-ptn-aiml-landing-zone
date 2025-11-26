@@ -52,3 +52,6 @@ avm.tflint_module.merged.hcl
 examples/*/policy
 *.mptfbackup
 .avm
+
+# MCP configuration
+mcp.json

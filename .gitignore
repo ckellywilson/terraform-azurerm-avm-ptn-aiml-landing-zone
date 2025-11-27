@@ -54,4 +54,4 @@ examples/*/policy
 .avm
 
 # MCP configuration
-mcp.json
+# mcp.json (temporarily removed from ignore to allow deletion)

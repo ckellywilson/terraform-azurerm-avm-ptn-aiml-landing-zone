@@ -8,6 +8,11 @@ output "firewall_ip_address" {
   value       = module.firewall.resource.ip_configuration[0].private_ip_address
 }
 
+output "resource_group_name" {
+  description = "The name of the resource group containing the hub virtual network and private DNS zones"
+  value       = azurerm_resource_group.this.name
+}
+
 output "resource_group_resource_id" {
   description = "The resource ID of the resource group where the hub virtual network is deployed"
   value       = azurerm_resource_group.this.id
@@ -16,6 +21,11 @@ output "resource_group_resource_id" {
 output "resource_id" {
   description = "Duplicating the vnet resource ID output to keep the linter happy."
   value       = ""
+}
+
+output "virtual_network_name" {
+  description = "The name of the hub virtual network for VNet peering and DNS zone configuration"
+  value       = module.ai_lz_vnet.name
 }
 
 output "virtual_network_resource_id" {

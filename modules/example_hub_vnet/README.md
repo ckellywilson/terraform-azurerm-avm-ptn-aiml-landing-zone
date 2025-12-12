@@ -136,6 +136,10 @@ Description: The inbound IP address of the DNS resolver in the hub virtual netwo
 
 Description: The IP address of the Azure Firewall in the hub virtual network
 
+### <a name="output_resource_group_name"></a> [resource\_group\_name](#output\_resource\_group\_name)
+
+Description: The name of the resource group containing the hub virtual network and private DNS zones
+
 ### <a name="output_resource_group_resource_id"></a> [resource\_group\_resource\_id](#output\_resource\_group\_resource\_id)
 
 Description: The resource ID of the resource group where the hub virtual network is deployed
@@ -143,6 +147,10 @@ Description: The resource ID of the resource group where the hub virtual network
 ### <a name="output_resource_id"></a> [resource\_id](#output\_resource\_id)
 
 Description: Duplicating the vnet resource ID output to keep the linter happy.
+
+### <a name="output_virtual_network_name"></a> [virtual\_network\_name](#output\_virtual\_network\_name)
+
+Description: The name of the hub virtual network for VNet peering and DNS zone configuration
 
 ### <a name="output_virtual_network_resource_id"></a> [virtual\_network\_resource\_id](#output\_virtual\_network\_resource\_id)
 
